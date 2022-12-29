@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+.app__header {
+    background: #FEF8F3;
+}
+
+.app__header-h1{
+    color: #000;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.p__popensans{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.p__popensans1{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.imagem_perfil{
+    width: 489px;
+    justify-content: right;
+}
+
+.app__wrapper_info{
+    margin-bottom: 28em;
+}
+
+
+@media screen and (max-width: 2000px){
+
+}
+
+@media screen and (max-width: 1150px){
+    
+    .app__wrapper_info{
+        margin-bottom: 20px;
+    }
+    
+    .app__header-h1{
+        font-size: 36px;
+        line-height: 40px;
+        margin-top: 50px;
+     }
+
+     .p__popensans{
+        font-weight: 400;
+        line-height: 34px;
+        font-size: 32px;
+     }
+
+.p__popensans1{
+    margin-top: 4rem;
+    font-weight: 400;
+    line-height: 34px;
+    font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 650px){
+.p__popensans{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+}
+
+.p__popensans1{
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.imagem_perfil{
+    height:514px;
+}
+
+.app__wrapper_info{
+    margin-bottom: 10px;
+}
+
+.app__header-h1{
+   margin-top: 2rem;
+   font-size: 20px;
+   width: 340px;
+   line-height: 27px;
+}
+}

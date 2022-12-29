@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+.body{
+    background-color: #FEF8F3;
+    font-family: 'Inter', sans-serif;
+    place-items: center;
+}
+
+.app__aboutus {
+    position: relative;
+    height: 600px;
+}
+
+.app__aboutus-overlay {
+    position: absolute;
+    inset: 0;
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    box-sizing:content-box;
+    background-color: #FEF8F3;
+    display: flex;
+    height: 70px;
+    padding: 70px 50px;
+}
+
+.words{
+   overflow: hidden;
+   font-weight: 700;
+   font-size: 34px;
+
+}
+
+span{
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+    animation: spin_words 7s infinite;
+    color: black;
+    text-align: center;
+
+}
+
+@keyframes spin_words{
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
+
+
+
+@media screen and (max-width: 2000px) {
+    .wrapper {
+       overflow-x: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .app__aboutus {
+        overflow-x: hidden;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__aboutus {
+        overflow-x: hidden;
+    }
+}
