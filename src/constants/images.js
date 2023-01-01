@@ -2,6 +2,8 @@ import etiqueta1 from '../assets/etiqueta1.png';
 import etiqueta2 from '../assets/etiqueta2.png';
 import etiqueta3 from '../assets/etiqueta3.png';
 import etiqueta4 from '../assets/etiqueta4.png';
+import etiqueta5 from '../assets/etiqueta5.png';
+import etiqueta6 from '../assets/etiqueta6.png';
 import perfil from '../assets/perfil.jpg';
 import trabalho1 from '../assets/trabalho1.png';
 import trabalho2 from '../assets/trabalho2.png';
@@ -24,6 +26,8 @@ export default {
   etiqueta2,
   etiqueta3,
   etiqueta4,
+  etiqueta5,
+  etiqueta6,
   perfil,
   trabalho1,
   trabalho2,

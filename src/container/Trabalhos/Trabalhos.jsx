@@ -4,6 +4,12 @@ import {images} from '../../constants';
 import './Trabalhos.css';
 
 const Trabalhos = () => {
+
+
+function enableMute() { 
+  var myAudio = document.getElementById('videoi');
+  myAudio.muted = !myAudio.muted;
+}
 const [toggleMenu1, setToggleMenu1] = useState(false);
 const [toggleMenu2, setToggleMenu2] = useState(false);
 const [toggleMenu3, setToggleMenu3] = useState(false);
@@ -20,35 +26,39 @@ return (
         {toggleMenu1 && (
       <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
       <RxCross1 fontSize={27} className="overlay__close" onClick={() => setToggleMenu1(false)}/>
-      <img src={images.trabalho1} className='video_img' alt="trabalho1"/>
+      <img src={images.trabalho1} className='video_img' alt="trabalho1" id='videoi'/>
       </div>
      )}
         <img src={images.trabalho2} className='trabalho_img' alt="trabalho2" onClick={() => setToggleMenu2(true)}/>
         {toggleMenu2 && (
       <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
       <RxCross1 fontSize={27} className="overlay__close" onClick={() => setToggleMenu2(false)}/>
-      <video src={images.video2} className='video_img' autoPlay loop alt="trabalho2"/>
+      <video src={images.video2} className='video_img' autoPlay loop alt="trabalho2" id='videoi'/>
+      <img src={images.etiqueta5} onClick={enableMute} className='btn-mute' alt='mute'/>
       </div>
      )}
         <img src={images.trabalho3} className='trabalho_img' alt="trabalho3" onClick={() => setToggleMenu3(true)}/>
         {toggleMenu3 && (
       <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
       <RxCross1 fontSize={27} className="overlay__close" onClick={() => setToggleMenu3(false)}/>
-      <video src={images.video3} className='video_img' autoPlay loop alt="trabalho3"/>
+      <video src={images.video3} className='video_img' autoPlay loop alt="trabalho3" id='videoi'/>
+      <img src={images.etiqueta5} onClick={enableMute} className='btn-mute' alt='mute'/>
       </div>
      )}
         <img src={images.trabalho4} className='trabalho_img' alt="trabalho4" onClick={() => setToggleMenu4(true)}/>
         {toggleMenu4 && (
       <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
       <RxCross1 fontSize={27} className="overlay__close" onClick={() => setToggleMenu4(false)}/>
-      <video src={images.video4} className='video_img' autoPlay loop alt="trabalho4"/>
+      <video src={images.video4} className='video_img' autoPlay loop alt="trabalho4" id='videoi'/>
+      <img src={images.etiqueta5} onClick={enableMute} className='btn-mute' alt='mute'/>
       </div>
      )}
         <img src={images.trabalho5} className='trabalho_img' alt="trabalho5" onClick={() => setToggleMenu5(true)}/>
         {toggleMenu5 && (
       <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
       <RxCross1 fontSize={27} className="overlay__close" onClick={() => setToggleMenu5(false)}/>
-      <video src={images.video5} className='video_img' autoPlay loop alt="trabalho5"/>
+      <video src={images.video5} className='video_img' autoPlay loop alt="trabalho5" id='videoi'/>
+      <img src={images.etiqueta5} onClick={enableMute} className='btn-mute' alt='mute'/>
       </div>
      )}
         <img src={images.trabalho6} className='trabalho_img' alt="trabalho6" onClick={() => setToggleMenu6(true)}/>
@@ -76,7 +86,8 @@ return (
         {toggleMenu9 && (
       <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
       <RxCross1 fontSize={27} className="overlay__close" onClick={() => setToggleMenu9(false)}/>
-      <video src={images.video9} className='video_img' autoPlay loop alt="trabalho9"/>
+      <video src={images.video9} className='video_img' autoPlay loop alt="trabalho9" id='videoi'/>
+      <img src={images.etiqueta5} onClick={enableMute} className='btn-mute' alt='mute'/>
       </div>
      )}
       </div>

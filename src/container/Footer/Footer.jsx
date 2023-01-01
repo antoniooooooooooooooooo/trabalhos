@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => (
-  <div className='app__footer section__padding' id='#contactos'>
+  <div className='app__footer section__padding' id='contactos'>
     <div className='footer__copyright'>
       <p className='opensans2'>antoniosimoesdesign@gmail.com</p>
     </div>

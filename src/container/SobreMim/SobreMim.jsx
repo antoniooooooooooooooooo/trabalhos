@@ -10,7 +10,9 @@ const Header = () => (
     </div>
     <div className='app__wrapper_info'>
      <h1 className='app__header-h1'>António Simões é um designer gráfico com múltiplas valências</h1>
-     <p className='p__popensans1'>Design gráfico, web design e modelação 3D são as áreas em que mais se destaca.</p>
+     <p className='p__popensans1'>Design gráfico, web design, edição de vídeo e modelação 3D são as áreas em que mais se destaca.</p>
+     <br/>
+     <p className='p__popensans'>Para além das suas habilitações ao nível da criação de conteúdos gráficos também tem conheciemnto no ramo da produção musical.</p>
      <br/>
      <p className='p__popensans'>Encontra-se de momento a frequentar o curso de Tecnologias e Design de Multimédia em Viseu.</p>
     </div>
