@@ -7,7 +7,7 @@ const Footer = () => (
       <p className='opensans2'>antoniosimoesdesign@gmail.com</p>
     </div>
     <div className='footer__copyright'>
-      <p className='p__opensans3'>2022 António Simões. All rigts reserved</p>
+      <p className='p__opensans3'>2024 António Simões. All rigts reserved</p>
     </div>
   </div>
 );
