@@ -14,7 +14,6 @@ const Header = () => (
      <br/>
      <p className='p__popensans'>Para além das suas habilitações ao nível da criação de conteúdos gráficos também tem conhecimento no ramo da produção musical.</p>
      <br/>
-     <p className='p__popensans'>Encontra-se de momento a frequentar o curso de Tecnologias e Design de Multimédia em Viseu.</p>
     </div>
   </div>
 );
